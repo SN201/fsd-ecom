@@ -1,0 +1,42 @@
+{
+    "header" : {
+        "cart" : "السلة" , 
+        "searchBy": "البحث عن طريق" , 
+        "login" : "تسجيل الدخول"
+    } , 
+    "footer": {
+    "about": "حول",
+    "aboutUs": "من نحن",
+    "ourBranches": "فروعنا",
+    "changelog": "سجل التغييرات",
+    "quickLinks": "روابط سريعة",
+    "faqs": "الأسئلة الشائعة",
+    "recipes": "وصفات",
+    "contactUs": "اتصل بنا",
+    "helpSupport": "المساعدة والدعم",
+    "termsOfService": "شروط الخدمة",
+    "privacyPolicy": "سياسة الخصوصية",
+    "security": "الأمان",
+    "company": "الشركة",
+    "blog": "المدونة",
+    "contact": "اتصال",
+    "social": "التواصل الاجتماعي",
+    "facebook": "فيسبوك",
+    "instagram": "إنستغرام",
+    "X": "X",
+    "copyright": "جميع الحقوق محفوظة © {{year}} {{company}}"
+  },
+    "pageLoader": {
+        "loading" : "... جاري التحميل"
+    } ,
+    "pageError": {
+    "title": "حدث خطأ ما",
+    "description": "عذراً – حدث خطأ غير متوقع. يرجى محاولة تحديث الصفحة أو العودة لاحقاً.",
+    "reload": "حاول مرة أخرى"
+} ,
+"notFound": {
+    "title": "الصفحة غير موجودة",
+    "description": "الصفحة التي تبحث عنها غير متوفرة. حاول البحث مرة أخرى أو استخدم زر العودة أدناه.",
+    "goBack": "العودة"
+}
+}
