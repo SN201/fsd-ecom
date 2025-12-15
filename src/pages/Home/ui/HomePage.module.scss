@@ -1,9 +1,10 @@
-.pageWraper{
-min-height: 100vh;
-display: flex;
-flex-direction: column;
+.pageWraper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-.container{
-flex: 1;
-padding:  0 var(--container-padding);
+
+.container {
+  flex: 1;
+  padding: 0 var(--container-padding);
 }
