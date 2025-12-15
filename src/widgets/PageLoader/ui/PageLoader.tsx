@@ -1,4 +1,4 @@
-import { Spinner } from '@/shared/ui';
+import { Spinner } from '@/shared/ui/Spinner';
 import styles from './PageLoader.module.scss'
 import { useTranslation } from 'react-i18next';
 export const PageLoader = () => {

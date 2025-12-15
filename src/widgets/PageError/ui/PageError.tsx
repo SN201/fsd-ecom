@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
 import styles from "./PageError.module.scss"
 import PageErrorIcon from "@/shared/assets/icons/PageError.svg?react"
-import { Button } from "@/shared/ui";
+import { Button } from '@/shared/ui/Button';
+
 export const PageError = () => {
     const {t} = useTranslation();
     const handelReloadClick = () =>{

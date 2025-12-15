@@ -1,4 +1,6 @@
-import { AppIcon, Button, Input } from "@/shared/ui"
+import { Input } from "@/shared/ui/Input"
+import { Button } from '@/shared/ui/Button';
+import { AppIcon } from '@/shared/ui/Icons';
 import styles from"./Header.module.scss"
 import LogoIcon from "@/shared/assets//icons/Logo.svg?react"
 import MapPin from "@/shared/assets//icons/MapPin.svg?react"

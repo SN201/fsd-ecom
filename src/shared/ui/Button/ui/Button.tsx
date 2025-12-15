@@ -1,5 +1,5 @@
 import type { ButtonHTMLAttributes , ReactNode } from "react"
-import { cn } from "../../config/lib/classNames";
+import { cn } from "../../../config/lib/classNames";
 import styles from "./Button.module.scss"
 
 type ButtonSize = "xs" | "sm" | "md" | "lg";

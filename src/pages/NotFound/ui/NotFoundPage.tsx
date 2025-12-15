@@ -1,4 +1,4 @@
-import { Button } from '@/shared/ui';
+import { Button } from '@/shared/ui/Button';
 import styles from './NotFoundPage.module.scss'
 import NotFoundIcon from '@/shared/assets/icons/NotFound.svg?react'
 import { useNavigate } from 'react-router-dom';

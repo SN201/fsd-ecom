@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { Footer, Header } from "@/widgets";
 import styles from "./HomePage.module.scss"
-import { Button } from "@/shared/ui";
+import { Button } from '@/shared/ui/Button';
 import { useState , useEffect } from "react";
 function HomePage() {
 const [error , setError] = useState(false);
