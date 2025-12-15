@@ -6,7 +6,7 @@ import {
   Languages, 
  type LanguageType,
   type DirectionType
-} from "@/app/provider/languageDirectionProvider/LanguageDirectionContext";
+} from "@/shared/config/index";
 
 interface useLanguageReturn {
   language?: LanguageType;

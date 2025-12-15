@@ -8,7 +8,7 @@ import {
   Languages,  
   type DirectionType,
   type LanguageType
-} from "./LanguageDirectionContext";
+} from "@/shared/config/index";
 
 interface LanguageProviderProps {
   children: React.ReactNode;

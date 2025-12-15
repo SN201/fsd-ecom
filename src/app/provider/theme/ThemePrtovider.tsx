@@ -4,7 +4,7 @@ import {useEffect, useState , type  ReactNode } from "react";
 interface ThemeProviderProps{
     children  : ReactNode;
 } 
-export const defaultTheme = (localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as ThemeType) || Theme.PINK
+const defaultTheme = (localStorage.getItem(LOCAL_STORAGE_THEME_KEY) as ThemeType) || Theme.PINK
 export const ThemeProvider = ({children}:ThemeProviderProps) => {
     const [theme , setTheme] = useState<ThemeType>(defaultTheme);
     useEffect(()=>{
