@@ -1,10 +1,12 @@
 import type { Preview } from "@storybook/react-vite";
+
 import "../src/app/styles/index.scss";
 import {
   ThemDecorator,
   RouterDecorator,
   LanguageDecorator,
 } from "../src/shared/config/StoryBook";
+
 const preview: Preview = {
   globalTypes: {
     theme: {

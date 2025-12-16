@@ -1,11 +1,3 @@
-import { routePaths, AppRoutes } from "./router/routePaths";
-import {
-  Theme,
-  ThemeContext,
-  LOCAL_STORAGE_THEME_KEY,
-  type ThemeType,
-} from "./theme/themeContext";
-import { useTheme } from "./theme/useTheme";
 import {
   langageIconList,
   type supportedLngsType,
@@ -20,6 +12,15 @@ import {
   type DirectionType,
 } from "./languageDirection/language.types";
 import { LanguageContext } from "./languageDirection/LanguageDirectionContext";
+import { routePaths, AppRoutes } from "./router/routePaths";
+import {
+  Theme,
+  ThemeContext,
+  LOCAL_STORAGE_THEME_KEY,
+  type ThemeType,
+} from "./theme/themeContext";
+import { useTheme } from "./theme/useTheme";
+
 export {
   routePaths,
   AppRoutes,

@@ -1,5 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
+
 import { PageLoader } from "./PageLoader";
+
 const meta = {
   title: "widget/PageLoader",
   parameters: {

@@ -1,4 +1,5 @@
 import { lazy } from "react";
+
 export const loginPageAsync = lazy(
   () =>
     new Promise((resolve) => {

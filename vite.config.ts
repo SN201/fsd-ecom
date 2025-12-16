@@ -14,9 +14,10 @@
 
 // vite.config.ts
 /// <reference types="vitest/config" />
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
 import path from "path";
+
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
 import svgr from "vite-plugin-svgr";
 
 // More info at: https://storybook.js.org/docs/next/writing-tests/integrations/vitest-addon

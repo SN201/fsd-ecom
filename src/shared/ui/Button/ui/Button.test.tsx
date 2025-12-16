@@ -1,5 +1,6 @@
-import { describe, test, expect, vi } from "vitest";
 import { fireEvent, render, screen } from '@testing-library/react'; // 👈 Import 'screen' for querying
+import { describe, test, expect, vi } from "vitest";
+
 import Button from "./Button";
 
 describe('Button', () => {

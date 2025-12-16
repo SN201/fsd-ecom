@@ -1,4 +1,5 @@
 import { lazy } from "react";
+
 export const homePageAsync = lazy(
   () =>
     new Promise((resolve) => {

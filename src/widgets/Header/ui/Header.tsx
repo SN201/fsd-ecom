@@ -1,20 +1,18 @@
-import { Input } from "@/shared/ui/Input"
-import { Button } from '@/shared/ui/Button';
-import { AppIcon } from '@/shared/ui/Icons';
-import styles from"./Header.module.scss"
+import { useTranslation } from "react-i18next"
+
 import LogoIcon from "@/shared/assets//icons/Logo.svg?react"
 import MapPin from "@/shared/assets//icons/MapPin.svg?react"
 import SearchIcon from "@/shared/assets//icons/Search.svg?react"
-import User from "@/shared/assets//icons/Users.svg?react"
 import ShoppingCart from "@/shared/assets//icons/ShoppingCart.svg?react"
+import User from "@/shared/assets//icons/Users.svg?react"
+import { Button } from '@/shared/ui/Button';
+import { AppIcon } from '@/shared/ui/Icons';
+import { Input } from "@/shared/ui/Input"
 
-// import Circle from "@/shared/assets//icons/Circle.svg?react"
-// import English from "@/shared/assets//icons/English.svg?react"
-// import Arabic from "@/shared/assets//icons/Arab(UAE).svg?react"
-// import { useTheme } from "@/shared/config"
-import { useTranslation } from "react-i18next"
+import styles from"./Header.module.scss"
 import { LangageSwitcher } from "./LangageSwitcher"
 import { ThemeSwitcher } from "./ThemeSwitcher"
+
 export const Header = () => {
       const { t} = useTranslation();
     //   const {toggelTheme} = useTheme();

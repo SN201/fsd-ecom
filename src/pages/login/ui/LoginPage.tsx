@@ -1,6 +1,6 @@
+import { useTranslation } from "react-i18next";
 import { Link } from "react-router-dom"
 // import { LangageSwitcher } from "@/widgets/Header/LangageSwitcher";
-import { useTranslation } from "react-i18next";
 function Login() {
     const {t } = useTranslation("login");
     // const changeLanguage = () =>{

@@ -1,5 +1,7 @@
 import { describe, expect, test } from "vitest";
+
 import { classNames } from "./classNames";
+
 describe("classNames", () => {
   test("1 argument", () => {
     expect(classNames("class1")).toBe("class1");

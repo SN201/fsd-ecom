@@ -1,6 +1,9 @@
 import type { FunctionComponent ,   SVGProps } from "react";
-import styles from "./AppIcon.module.scss"
+
 import { cn } from "@/shared/config/lib/classNames";
+
+import styles from "./AppIcon.module.scss"
+
  type AppIconThem = "clean" | "background"
 interface AppIconProps {
 Icon : FunctionComponent<SVGProps<SVGSVGElement>> ;

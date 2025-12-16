@@ -1,5 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
+
 import { PageError } from "./PageError";
+
 const meta = {
   title: "widget/PageError",
   parameters: {

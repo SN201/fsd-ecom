@@ -1,5 +1,7 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
+
 import Login from "./LoginPage";
+
 const meta = {
   title: "Pages/Login",
   parameters: {

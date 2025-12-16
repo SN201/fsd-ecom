@@ -1,8 +1,12 @@
-import { Link } from "react-router-dom"
-import { Footer, Header } from "@/widgets";
-import styles from "./HomePage.module.scss"
-import { Button } from '@/shared/ui/Button';
 import { useState , useEffect } from "react";
+import { Link } from "react-router-dom"
+
+import { Button } from '@/shared/ui/Button';
+
+import styles from "./HomePage.module.scss"
+
+import { Footer, Header } from "@/widgets";
+
 function HomePage() {
 const [error , setError] = useState(false);
 useEffect(()=>{

@@ -1,8 +1,10 @@
+import type {RouteObject } from "react-router"
+
 import HomePage from "@/pages/Home/ui/HomePage";
 import { LoginPage } from "@/pages/login";
 import { NotFoundPage } from "@/pages/NotFound";
+
 import { routePaths , AppRoutes } from "@/shared/config";
-import type {RouteObject } from "react-router"
 
 
 export const routConfig:RouteObject [] = [
