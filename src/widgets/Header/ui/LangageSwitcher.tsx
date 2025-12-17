@@ -1,17 +1,14 @@
 import { useTranslation } from "react-i18next"
 
 import { langageIconList, type supportedLngsType } from "@/shared/config";
-import { useLanguage } from "@/shared/config/i18n/LanguageDirection/useLanguageDirection";
 import { Button } from '@/shared/ui/Button';
 import { AppIcon } from '@/shared/ui/Icons';
 
 export const LangageSwitcher = () =>{
     const { i18n} = useTranslation();
-    const DirectionLanguage = useLanguage()
      const currentLanguage = i18n.language as supportedLngsType ; 
      const toggelLanguage = () => {
         i18n.changeLanguage(i18n.language === 'en' ? 'ar' : 'en')
-        DirectionLanguage.toggleLanguage()
     }
 return (
             <Button onClick={toggelLanguage} theme="ghost">
